@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type"  content="text/html; charset=utf-8">  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Copatible" content="IE=edge">
+    <meta name="viewport"  content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>scientific-payoffs</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <style type="text/css">
+<!--
+.STYLE1 {color: #333}
+-->
+    </style>
+</head>
+<body>
+<div class="module" style="background-color: #FFBFFF;">
+<div class="content clearfix">
+		  <div class="title-main">论文</div>
+			<div class="txt-main" style="text-align: left; color: #333;">
+			  <p>[1] Wenming Wang*, Liquan Wang, CaidongWang. Deep-sea Structure Pose Measurement’s Error Analysis and Experimental Study[J].Ocean Engineering. 2013, 70(15): 141-148. (SCI/EI, IF 1.178，204JL).</p>
+			  <p>[2] Wenming Wang*, Liquan Wang, Caidong Wang. A Novel Deepwater Structures Pose Measurement Method and Experimental Study. Measurement. 2012.45(5): p.1151-1158. (SCI/EI, IF 0.885，929UW). </p>
+			  <p>[3] Wenming Wang, Shimin Zhang*, Deguo Wang, Li Lin, Xiaoxiao Zhu, Yingchun Chen. Synchronous clamping control of marine umbilical cable tensioner. proceedings of the institution of mechanical engineers part c-journal of mechanical engineering science.2013.227(10):2328–2336. (SCI/EI, IF 0.485, 051WL).</p>
+			  <p>[4] 王文明,张仕民. 四履带脐带缆张紧器开合机构的设计与仿真.华中科技大学学报, 2013,41（10）：91-94（EI 20135217144732）.</p>
+			  <p>[5] 王文明*,王立权,王才东,赵冬岩, 何宁. 深海管道位姿测量系统的误差源分析.深圳大学学报. 2013,30（5）：532-537（EI）.</p>
+			  <p>[6] Wenming Wang*, Shangna Song, Shimin Zhang, Da Yu. Impact analysis of pigging in shield segment of gas pipe. 2012 IEEE International Conference on Mechatronics and Automation, ICMA 2012, p 203-207, 2012. (EI 20124315597630).</p>
+			  <p>[7] Wenming Wang*, Yin Li, Shimin Zhang. Structure Design of a Novel Four Tracks Umbilical Tensioner. (International Symposium on Chemical Engineering and Material Properties) ISCEMP 2012, Advanced Materials Research, v 532-533, p 277-281, 2012, Materials Science and Information Technology II. (EI 20124615672056）.</p>
+			  <p>[8] Wenming Wang*, Shimin Zhang, Shangna Song, Yin Li. Vibration Analysis for Pigging of Suspension Pipe Bridge. Advanced Materials Mechanical Journal. ICEDO 2012.International Conference on Engineering Design and Optimization.Applied Mechanics and Materials, v 201-202, p 669-672, 2012, Advances in Engineering Design and Optimization III.（EI 20124915750847）.</p>
+			  <p>[9] 王文明，张仕民，陈迎春，王德国，刘书海. 连续油管在海洋油气作业中的应用.石油机械.2012,40(11):53-57页（核心）.</p>
+			  <p>[10] 王文明，张仕民. 脐带缆张紧器总体方案设计.石油矿场机械.2013,50(3):110-112页（核心）.</p>
+			  <p>[11] Wenming Wang*, Xutao Mei,Research on the Sealing Structure of the Plugs Near Launcher or Receiver. ICMA 2013, p 1695-1699, 2013.2013.（EI, 20134817017481）.</p>
+			  <p>[12] Wenming Wang*, Xutao Mei. Quick coupler mechanism design and analysis of near-pipeline-end plugging. Research on the quick coupler mechanism of near-pig receiver and launcher. ICPTT 2013.（EI 20140517258648）.</p>
+			  <p>[13] Wenming Wang*, Zhang hang. The design analysis of the double blockages in the 324 mm pipeline. ICPTT 2013.（EI 20140517258599）.</p>
+			  <p>[14] Wang wenming*, Haoran Li, Yingchun Chen; Peng He. Experimental and Theoretical Study on the Effect of Inclined angle in the SCR Pipe-in-pipe System [J]. Ocean Engineering. SCI.</p>
+			  <p>[15] Wang wenming, Liu xu. Pose overshoot analysis of the marine spherical double plugging in twisting process [J]. Proceedings of the Institution of Mechanical Engineers Part M-Journal of Engineering for the Maritime Environment. SCI.			</p>
+			</div>
+</div>
+	</div>
+	<div class="module" style="background-color: #66FF99;"></div>
+
+<!-- 	<div class="module" style="background-color: #f7f6f5;">
+		<div class="content clearfix">
+			<div class="title-main" style="font-weight: bold; font-size: 1.85em; margin-bottom: 20px;">User Flow</div>
+			<img style='width: 100%; padding: 20px 0;' src="imgs/pro-season/user_flow2.png">
+		</div>
+	</div> -->
+
+
+<a href="#"><div class="to-top"></div></a>
+	
+	<div class="footer ports"></div>
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() { 			
+			$(".to-top").hide();
+			currTop = 0;
+
+			$(window).scroll(function(){
+				var windowTop = $(window).scrollTop()||0;
+				if (windowTop > 200){
+					$(".to-top").fadeIn(300);
+				}
+				else{
+					$(".to-top").fadeOut(300);
+				}
+				if(windowTop >= currTop){
+					$(".navbar").addClass("navbar-hide");
+				}else{
+					$(".navbar").removeClass("navbar-hide")
+					if(windowTop > 20){
+						$(".navbar").addClass("navbar-custom");
+					}else{
+						$(".navbar").removeClass("navbar-custom");
+					}
+				}
+
+				currTop = windowTop;
+
+			});
+
+			$(".tags>.btn").click(function(){
+				$(this).siblings().removeClass("active");
+				$(this).addClass("active");
+			});
+		});
+		var myVideo0 = document.getElementById("video0"); 
+		var myBtn0 = document.getElementById("play-btn0"); 
+		function playPause0() { 
+			// myBtn1.setAttribute('src', 'imgs/play-btn.svg');
+		    if (myVideo0.paused) {
+		    	myVideo0.play();
+		    	myVideo0.controls="controls";
+		    	// myBtn1.attr('src', 'imgs/pause-btn.svg'); 
+		    	myBtn0.style.display="none";
+
+		    } else {
+		        myVideo0.pause();
+		        // myBtn1.setAttribute('src', 'imgs/pause-btn.svg');
+		        myBtn0.style.display="inline-block";
+		    }
+		}  
+		var myVideo1 = document.getElementById("video1"); 
+		var myBtn1 = document.getElementById("play-btn1"); 
+		
+		function playPause1() { 
+			// myBtn1.setAttribute('src', 'imgs/play-btn.svg');
+		    if (myVideo1.paused) {
+		    	myVideo1.play();
+		    	// myBtn1.attr('src', 'imgs/pause-btn.svg'); 
+		    	myBtn1.style.display="none";
+		    } else {
+		        myVideo1.pause();
+		        // myBtn1.setAttribute('src', 'imgs/pause-btn.svg');
+		        myBtn1.style.display="inline-block";
+		    }
+		} 
+
+		var myVideo2 = document.getElementById("video2");
+		var myBtn2 = document.getElementById("play-btn2");  
+		function playPause2() { 
+		    if (myVideo2.paused){
+		        myVideo2.play();
+		        myBtn2.style.display="none"; 
+		    }
+		    else{
+		        myVideo2.pause(); 
+		        myBtn2.style.display="inline-block";
+		    } 
+		} 
+	</script>
+
+</body>
+</html>
